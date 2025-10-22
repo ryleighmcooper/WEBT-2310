@@ -2,9 +2,7 @@
 
 <ul>
   <li>
-    <a href="./HTML_AND_CSS_REVIEW/index.html" target="_blank">
-      HTML AND CSS REVIEW
-    </a>
+    <a href="HTML_AND_CSS_REVIEW/index.html" target="_blank">HTML AND CSS REVIEW</a>
   </li>
 </ul>
 
