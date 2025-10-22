@@ -1,12 +1,13 @@
-# WEBT-2310 project page
+<h1>WEBT-2310 Project Page</h1>
 
 <ul>
   <li>
-    <a href="https://ryleighmcooper.github.io/WEBT-2310/HTML_AND_CSS_REVIEW/index.html" target="_blank">
+    <a href="./HTML_AND_CSS_REVIEW/index.html" target="_blank">
       HTML AND CSS REVIEW
     </a>
   </li>
 </ul>
+
 
 
 
