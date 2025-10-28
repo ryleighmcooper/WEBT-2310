@@ -1,57 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contact — The Velvet Moon</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Velvet Moon</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <header class="header">
     <div class="container nav">
       <a class="brand" href="index.html">
-     <img src="images/VM.Logo.png" alt="The Velvet Moon logo" class="site-logo">
+        <img src="images/VM.Logo.png" alt="The Velvet Moon logo">
         <span>The Velvet Moon</span>
       </a>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="index.html">Home</a></li>
           <li><a href="shop.html">Shop</a></li>
           <li><a href="learn.html">Learn</a></li>
-          <li><a class="active" href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main class="section">
-    <div class="container grid two-col">
-      <section class="card">
-        <h2>Say Hello</h2>
-        <p class="small">We’ll get back within 1–2 days. (This is a demo form; wire up later if needed.)</p>
-        <form class="form-grid" action="#" method="post">
-          <input type="text" name="name" placeholder="Your name" required>
-          <input type="email" name="email" placeholder="Email address" required>
-          <textarea name="message" placeholder="Tell us what you’re looking for…"></textarea>
-          <button class="cta" type="submit">Send Message</button>
-        </form>
-      </section>
+  <main>
+    <section class="hero">
+      <div class="container grid two-col">
+        <div>
+          <h1>Crystals, calm, and cozy vibes</h1>
+          <p>Hand-picked stones and goods to bring light into your space.</p>
+          <a class="btn" href="shop.html">Shop crystals</a>
+        </div>
+        <div>
+          <img class="hero-image" src="images/velvet.moon.png" alt="The Velvet Moon storefront">
+        </div>
+      </div>
+    </section>
 
-      <aside class="card">
-        <h2>Visit Our Shop</h2>
-        <p>123 Moonbeam Lane, Hidden Hollow, TN</p>
-        <img src="images/velvet.moon.png" alt="Velvet Moon Store">
-        <p class="small">Open Wed–Sun · 11am–6pm</p>
-      </aside>
-    </div>
+    <section class="section">
+      <div class="container">
+        <h2>Featured</h2>
+        <div class="grid three-col">
+          <article class="card product">
+            <div class="pic"><img src="images/amethyst.cluster.jpeg" alt="Amethyst cluster"></div>
+            <strong>Amethyst Cluster</strong>
+            <span class="price">$24</span>
+          </article>
+          <article class="card product">
+            <div class="pic"><img src="images/rose.quartz.palm.webp" alt="Rose quartz palm stone"></div>
+            <strong>Rose Quartz Palm</strong>
+            <span class="price">$12</span>
+          </article>
+          <article class="card product">
+            <div class="pic"><img src="images/obsidian.tower.jpeg" alt="Obsidian tower"></div>
+            <strong>Obsidian Tower</strong>
+            <span class="price">$18</span>
+          </article>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <div class="container grid two-col">
-      <div><strong>The Velvet Moon</strong><br><span class="small">© Ryleigh Cooper 2025</span></div>
-      <div class="small" style="text-align:right">Email: hello@velvetmoon.test</div>
-    </div>
+    <div class="container">© 2025 The Velvet Moon</div>
   </footer>
 </body>
 </html>
