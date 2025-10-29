@@ -39,7 +39,7 @@ img{
  grid-template-columns: repeat(3, 1fr)
 }
 
-/* HEADER STUFF */
+
 .header{
  background:#FFF9FC;
  border-bottom:1px solid #EEE3F6;
@@ -65,7 +65,7 @@ img{
  border-radius:50%;
 }
 
-/* nav thing */
+
 nav ul{
  list-style:none;
  margin:0;
@@ -84,7 +84,7 @@ nav a:hover, nav a.active{
  background:#D9C6E9;
 }
 
-/* hero area */
+
 .hero{
  background: linear-gradient(#fff,#F8F5FB);
  padding:55px 0;
@@ -115,7 +115,7 @@ nav a:hover, nav a.active{
  margin-left:auto;
 }
 
-/* sections */
+
 .section{
  padding:40px 0;
 }
@@ -125,7 +125,7 @@ nav a:hover, nav a.active{
  margin-bottom:15px;
 }
 
-/* cards */
+
 .card{
  background:#FFF9FC;
  border:1px solid #EFE6F6;
@@ -134,7 +134,7 @@ nav a:hover, nav a.active{
  height:100%;
 }
 
-/* products */
+
 .product{
  display:flex;
  flex-direction:column;
@@ -169,7 +169,7 @@ nav a:hover, nav a.active{
  font-weight:800;
 }
 
-/* learn imgs */
+
 .card img{
  width:100%;
  aspect-ratio:4/3;
@@ -178,7 +178,7 @@ nav a:hover, nav a.active{
  display:block;
 }
 
-/* forms */
+
 form{
  display:grid;
  gap:12px;
@@ -199,7 +199,7 @@ button{
  cursor:pointer;
 }
 
-/* bottom */
+
 footer{
  text-align:center;
  color:#4A3E55;
@@ -209,7 +209,7 @@ footer{
  padding:26px 0;
 }
 
-/* ok now the mobile stuff */
+
 @media(max-width:1000px){
  .three-col{grid-template-columns:1fr 1fr;}
 }
