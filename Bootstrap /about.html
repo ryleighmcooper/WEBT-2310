@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About - Paws & hearts</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><i class="bi bi-paw-fill"></i> paws & hearts</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainnav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainnav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
+      <li class="nav-item"><a class="nav-link" href="adopt.html">adopt</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">about</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="container text-center py-5">
+  <h2>our mission</h2>
+  <div class="d-flex flex-column flex-md-row justify-content-center gap-3 mt-4">
+    <div class="border rounded p-3 flex-fill">
+      <i class="bi bi-hand-thumbs-up-fill fs-3"></i>
+      <h5>rescue</h5>
+      <p>we rescue abandoned and mistreated animals.</p>
+  </div>
+    <div class="border rounded p-3 flex-fill">
+      <i class="bi bi-house-heart-fill fs-3"></i>
+      <h5>rehome</h5>
+      <p>we find loving forever homes for pets.</p>
+  </div>
+    <div class="border rounded p-3 flex-fill">
+      <i class="bi bi-heart-pulse-fill fs-3"></i>
+      <h5>educate</h5>
+      <p data-bs-toggle="tooltip" title="spay and neuter programs help reduce stray populations.">we teach responsible pet care.</p>
+    </div>
+  </div>
+
+  <hr class="my-5">
+  <h3 id="donate"><i class="bi bi-cash-coin"></i> support our work</h3>
+  <p>your donations keep our animals fed, healthy, and loved.</p>
+  <a class="btn btn-warning" href="#"><i class="bi bi-credit-card-2-front"></i> donate now</a>
+</section>
+
+<footer class="bg-dark text-white text-center p-3 mt-5">
+  <i class="bi bi-bag-heart-fill"></i> together, we make tails wag!
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(t => new bootstrap.Tooltip(t))
+</script>
+</body>
+</html>
+
