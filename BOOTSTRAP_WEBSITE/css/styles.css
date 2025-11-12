@@ -61,7 +61,7 @@ body {
 }
 
 
-/* adoption cards layout fix */
+/* adoption cards layout*/
 .cards-container{
   display:flex;
   flex-wrap:wrap;
